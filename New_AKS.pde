@@ -117,7 +117,6 @@ boolean isPrime(int n){
       return false;
     }
   }
-
   
   int r = 3;
 
@@ -133,8 +132,6 @@ boolean isPrime(int n){
   }
   
   long restraint = (long) (sqrt((float) euler(r)) * log10(n));
-  
-
   
   for(int a = 1; a <= restraint; a++){  
     Polynomial testPol = new Polynomial(a);
@@ -153,29 +150,19 @@ boolean isPrime(int n){
           
           testPol = new Polynomial(a);
        }
-    }
-     
-    
+    }  
      
      Polynomial sub = new Polynomial(a, n);
      storage.subtract(sub);
      storage = storage.polMod(n, r);
      
-    
-     
       for(int all = 1; all < storage.terms.size(); all++){
         if(storage.terms.get(all) % n != 0){
           return false;
         }
-      }
-    
-
-    
+      }    
   }
-
- 
   return true;
-  
 }
   
 long euler(long ar){ 
@@ -225,10 +212,6 @@ ArrayList<Integer> toBinary(int x){
   return binary;
 }
 
-
-
-
-
 class Polynomial{
   
   ArrayList<Integer> terms;
@@ -261,8 +244,6 @@ class Polynomial{
     }
     terms.add(1);
   }
-  
-  
   
   
   Polynomial multiply(Polynomial first, Polynomial second){
