@@ -4,5 +4,5 @@ This repository contains the code (both for the AKS algorithm implementation and
 
 
 <p align="center">
-  <img src="https://github.com/taylanoaydin/aks_art/assets/93238532/e458ce58-9a82-4963-abc6-b2ee20b1b03d"/>
+  <img src="https://github.com/taylanoaydin/aks_art/assets/93238532/1b25ab4a-0e28-448c-a38c-f34ed593d02a"/>
 </p>
