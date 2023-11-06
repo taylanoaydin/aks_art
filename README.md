@@ -1,6 +1,6 @@
 # aks_art
 
-This repository contains the code (both for the AKS algorithm implementation and art generation) that I developed for a research project years ago. One of the resulting generated artpieces that captured primality patterns in natural numbers have been used as a cover of MAA Focus magazine, for their <a href="http://digitaleditions.walsworthprintgroup.com/publication/?i=711461">2021 June-July issue</a> seen below.
+This repository contains the code (both for the AKS algorithm implementation and art generation) that I developed for a research project years ago. One of the resulting generated artpieces that captured primality patterns in natural numbers has been used as a cover of MAA Focus magazine, for their <a href="http://digitaleditions.walsworthprintgroup.com/publication/?i=711461">2021 June-July issue</a> seen below.
 
 
 <p align="center">
